@@ -4,7 +4,7 @@ from PyPDF2 import PdfFileMerger
 
 pdfs1 = ["1.pdf", "2.pdf"]
 pdfs2 = ["1_1.pdf", "2_1.pdf"]
-pdfsS = ["s1.pdf", "s2.pdf"]
+pdfsS = ["r/s1.pdf", "r/s2.pdf"]
 
 
 
