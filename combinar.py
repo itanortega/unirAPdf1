@@ -1,13 +1,13 @@
 # pip install pypdf2
 
 from PyPDF2 import PdfFileMerger
+import os
 
 pdfs1 = ["1.pdf", "2.pdf"]
 pdfs2 = ["1_1.pdf", "2_1.pdf"]
 pdfsS = ["r/s1.pdf", "r/s2.pdf"]
 
-
-
+os.mkdir("r")
 
 for i in range(len(pdfs1)):
     fusionador = PdfFileMerger()
